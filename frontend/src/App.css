@@ -1,0 +1,32 @@
+/* App Core Styles */
+.healthguard-glass {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.healthguard-card {
+  background-color: #1e293b;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
+.healthguard-card:hover {
+  border-color: rgba(71, 85, 105, 0.8);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px -5px rgba(59, 130, 246, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px -5px rgba(239, 68, 68, 0.3);
+}
